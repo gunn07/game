@@ -1,4 +1,6 @@
-a = 0
-for i in range(10):
-  a+= 1
-  print(str(a) + ' : Hi')
+while Game_on == True:
+
+  Print(" Welcom to the Fantasia!/n Chose Your character ")
+  Character = input("Angel or Devil")
+  if Character == "Angel":
+  
